@@ -53,14 +53,18 @@ int8_t sStingPCM[3][16] = {	"",
 							"22",
 							};
 							
-int8_t sStingBld[6][32] = {	"has060 MACSList.s",
-							"has060 -u MACSsrc.s",
+int8_t sStingBld[6][32] = {	"has060 -t . MACSList.s",
+							"has060 -t . -u MACSsrc.s",
 							"060high 1",
 							"hlk -r MACSsrc MACSList",
 							"MakeMCS MACSsrc",
 							"060high 0"
 						};
-	
+						
+int8_t sStingTitle[32768] = {0};
+int8_t sStingComment[32768] = {0};;
+
+						
 /* 関数のプロトタイプ宣言 */
 void HelpMessage2(void);
 int16_t main(int16_t, int8_t**);
@@ -323,7 +327,7 @@ int16_t MACSListS(void)
 	default:
 		break;
 	}
-	fprintf(fp, "i=i+1\n");
+	fprintf(fp, "i=i+%d\n", cnt[1]);
 	fprintf(fp, "    .endm\n\n");
 	if(g_nSound > 0)
 	{
@@ -379,8 +383,8 @@ int16_t MACSsrcS(void)
 	{
 		fprintf(fp, "USE_DUALPCM 'S%s'\n", sStingPCM[g_nSound]);
 	}
-	fprintf(fp, "TITLE ''\n");
-	fprintf(fp, "COMMENT ''\n\n");
+	fprintf(fp, "TITLE '%s'\n", sStingTitle);
+	fprintf(fp, "COMMENT '%s'\n\n", sStingComment);
 
 	fprintf(fp, "SCREEN_ON%s\n\n", sStingCMD[g_nEffectType]);
 	if(g_nFPS < 10)
@@ -444,6 +448,7 @@ int16_t MACSsrcS(void)
 	}
 	
 	fprintf(fp, "CHANGE_POSITION\n");
+	fprintf(fp, "i=i+%d\n", cnt[1]);
 	fprintf(fp, "    .endm\n\n");
 	
 	fprintf(fp, "WAIT 60\n");
@@ -513,6 +518,7 @@ int16_t MakeStatus(void)
 {
 	int16_t ret = 0;
 	
+	printf("---------------------------\n");
 	puts("拡張グラフィックモード");
 	switch(g_nEffectType)
 	{
@@ -550,13 +556,13 @@ int16_t MakeStatus(void)
 	switch(g_nSound)
 	{
 	case 0:
-			puts("ADPCM");
+			puts("-M0 ADPCM");
 		break;
 	case 1:
-			puts("ADPCM/PCM S44");
+			puts("-M1 ADPCM/PCM S44");
 		break;
 	case 2:
-			puts("ADPCM/PCM S22");
+			puts("-M2 ADPCM/PCM S22");
 		break;
 	default:
 			printf("未知のサウンドモード設定です=%d\n", g_nSound );
@@ -642,7 +648,11 @@ void HelpMessage2(void)
 	printf("-F7 27.729 fps(default)\n");
 	printf("-F8 55.458 fps\n");
 	printf("-----------------------------------------------\n");
+	printf("Hit Any Key\n");
 	getchar();
+	printf("-----------------------------------------------\n");
+	printf("-T <タイトル>\n");
+	printf("-C <コメント>\n");
 	printf("-----------------------------------------------\n");
 	printf("変換に必要なツール＆ファイル：\n");
 	printf("=< 0_MakeTxTp.bat/0_MakeTx.bat>=<-S1,-S2>以外==\n");
@@ -678,11 +688,13 @@ int16_t Option(int16_t argc, int8_t** argv)
 	if(argc > 2)	/* オプションチェック */
 	{
 		int16_t i;
+		int8_t	bStrFlag[2] = {FALSE};
 		
 		for(i = 1; i < argc; i++)
 		{
 			int8_t	bOption;
-			int8_t	bFlag, bFlag2;
+			int8_t	bFlag;
+			int16_t	Flag2;
 			
 			bOption	= ((argv[i][0] == '-') || (argv[i][0] == '/')) ? TRUE : FALSE;	/* １文字目 */
 
@@ -690,8 +702,8 @@ int16_t Option(int16_t argc, int8_t** argv)
 			{
 				/* グラフィック拡張モード */
 				bFlag	= ((argv[i][1] == 's') || (argv[i][1] == 'S')) ? TRUE : FALSE;	/* ２文字目 */
-				bFlag2	= strlen(&argv[i][2]);	/* ３文字目の長さ */
-				if((bFlag == TRUE) && (bFlag2 > 0))
+				Flag2	= strlen(&argv[i][2]);	/* ３文字目の長さ */
+				if((bFlag == TRUE) && (Flag2 > 0))
 				{
 					g_nEffectType = atoi(&argv[i][2]);
 					if(g_nEffectType < 0)			g_nEffectType = 255;
@@ -704,26 +716,42 @@ int16_t Option(int16_t argc, int8_t** argv)
 				
 				/* 音声のサンプリングレート（まーきゅりーゆにっと） */
 				bFlag	= ((argv[i][1] == 'm') || (argv[i][1] == 'M')) ? TRUE : FALSE;	/* ２文字目 */
-				bFlag2	= strlen(&argv[i][2]);	/* ３文字目の長さ */
-				if((bFlag == TRUE) && (bFlag2 > 0))
+				Flag2	= strlen(&argv[i][2]);	/* ３文字目の長さ */
+				if((bFlag == TRUE) && (Flag2 > 0))
 				{
 					g_nSound = atoi(&argv[i][2]);
 					if(g_nSound <= 0)		g_nSound = 0;
-					else if(g_nSound > 1)	g_nSound = 1;
+					else if(g_nSound > 2)	g_nSound = 1;
 					
 					continue;
 				}
 				
 				/* フレームレート */
 				bFlag	= ((argv[i][1] == 'f') || (argv[i][1] == 'F')) ? TRUE : FALSE;	/* ２文字目 */
-				bFlag2	= strlen(&argv[i][2]);	/* ３文字目の長さ */
-				if((bFlag == TRUE) && (bFlag2 > 0))
+				Flag2	= strlen(&argv[i][2]);	/* ３文字目の長さ */
+				if((bFlag == TRUE) && (Flag2 > 0))
 				{
 					g_nFPS = atoi(&argv[i][2]);
 					if(g_nFPS <= 0)		g_nFPS = 0;
 					else if(g_nFPS > 10000);
 					else if(g_nFPS > 10)	g_nFPS *= 1000;
 					
+					continue;
+				}
+				
+				/* タイトル */
+				bFlag	= ((argv[i][1] == 't') || (argv[i][1] == 'T')) ? TRUE : FALSE;	/* ２文字目 */
+				if(bFlag == TRUE)
+				{
+					bStrFlag[0] = TRUE;
+					continue;
+				}
+				
+				/* コメント */
+				bFlag	= ((argv[i][1] == 'c') || (argv[i][1] == 'C')) ? TRUE : FALSE;	/* ２文字目 */
+				if(bFlag == TRUE)
+				{
+					bStrFlag[1] = TRUE;
 					continue;
 				}
 				
@@ -743,19 +771,46 @@ int16_t Option(int16_t argc, int8_t** argv)
 			}
 			else
 			{
-				cnt[0] = atoi(argv[i+0]);
-				cnt[1] = 1;
-				cnt[2] = atoi(argv[i+1]);
-				
-				/* 引数チェック */
-				if( (cnt[0] > cnt[2]) )
+				if(bStrFlag[0] == TRUE)			/* タイトル文字列取得 */
 				{
-					ret = -1;
-					break;
+					bStrFlag[0] = FALSE;
+					
+					Flag2 = strlen(&argv[i][0]);	/* 次の文字列の長さ */
+					if(Flag2 > 0)
+					{
+						memset(sStingTitle, 0, sizeof(sStingTitle));
+						memcpy(sStingTitle, &argv[i][0], Flag2 );
+						printf("TITLE:%s\n", sStingTitle);
+					}
+				}
+				else if(bStrFlag[1] == TRUE)	/* コメント文字列取得 */
+				{
+					bStrFlag[1] = FALSE;
+					
+					Flag2 = strlen(&argv[i][0]);	/* 次の文字列の長さ */
+					if(Flag2 > 0)
+					{
+						memset(sStingComment, 0, sizeof(sStingComment));
+						memcpy(sStingComment, &argv[i][0], Flag2);
+						printf("COMMENT:%s\n", sStingComment);
+					}
 				}
 				else
 				{
-					break;
+					cnt[0] = atoi(argv[i+0]);
+					cnt[1] = 1;
+					cnt[2] = atoi(argv[i+1]);
+					
+					/* 引数チェック */
+					if( (cnt[0] > cnt[2]) )
+					{
+						ret = -1;
+						break;
+					}
+					else
+					{
+						break;
+					}
 				}
 			}
 		}
@@ -779,7 +834,7 @@ int16_t main(int16_t argc, int8_t** argv)
 	int16_t ret = 0;
 	
 	puts("勝手に改造MACSデータ作成補助ツール「MACScnv2.x」 v2.00 (c)2022 カタ");
-	
+
 	ret = Option(argc, argv);	/* オプションチェック */
 	
 	if(ret == 0)

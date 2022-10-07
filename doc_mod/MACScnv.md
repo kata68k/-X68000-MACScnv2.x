@@ -1,12 +1,28 @@
 # Šg’£ƒOƒ‰ƒtƒBƒbƒNƒ‚[ƒh‚Å“®‰æ(MACSƒf[ƒ^)‚ðì‚Á‚Ä‚Ý‚æ‚¤I
 
+# –ÚŽŸ
+1. [MACS‚Æ‚ÍH](#anchor1)
+1. [MACSƒf[ƒ^ì¬•â•ƒc[ƒ‹iMACScnv2.x)‚É‚Â‚¢‚Ä](#anchor2)
+1. [H’ö](#anchor3)
+1. [•K—v‚ÈŠÂ‹«](#anchor4)
+1. [ƒŠƒ“ƒN](#anchor5)
+1. [Žè‡](#anchor6)
+	1. [“®‰æƒtƒ@ƒCƒ‹‚ð€”õ‚µ‚æ‚¤I](#anchor6)
+	1. [VideoProc Converter‚Å“®‰æƒtƒ@ƒCƒ‹‚©‚ç‰æ‘œƒf[ƒ^(PNG)‚ðo—Í‚µ‚æ‚¤I](#anchor7)
+	1. [VideoProc Converter‚Å“®‰æƒtƒ@ƒCƒ‹‚©‚ç‰¹ºƒf[ƒ^(WAV)‚ðo—Í‚µ‚æ‚¤I](#anchor8)
+	1. [IrfanView‚ÅƒŠƒTƒCƒY•Œ¸F•PNG¨BMP•ÏŠ·‚µ‚æ‚¤I](#anchor9)
+	1. [MACSƒf[ƒ^ì¬•â•ƒc[ƒ‹iMACScnv2.x)‚ÅMACSƒf[ƒ^ì¬ƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ðì¬‚µ‚æ‚¤I](#anchor10)
+	1. [Ä¶‚µ‚Ä‚Ý‚æ‚¤I](#anchor11)
+
+<a id="anchor1"></a>
+
 MACS‚Æ‚ÍH
 ------------
 
 #### MACSDRV.doc ˆø—p
 
->MACS‚Æ‚ÍX680x0‚É‚¨‚¯‚é'ƒAƒjƒ[ƒVƒ‡ƒ“'‚ð‚à‚Á‚ÆŽèŒy‚Éˆµ‚¤‚½‚ß‚É¶‚Ü‚ê‚½í’“Œ^‚Ì
->ƒAƒjƒ[ƒVƒ‡ƒ“ƒRƒ“ƒgƒ[ƒ‰‚Å‚·B
+>MACS‚Æ‚ÍX680x0‚É‚¨‚¯‚é'ƒAƒjƒ[ƒVƒ‡ƒ“'‚ð‚à‚Á‚ÆŽèŒy‚Éˆµ‚¤‚½‚ß‚É¶‚Ü‚ê‚½  
+>í’“Œ^‚ÌƒAƒjƒ[ƒVƒ‡ƒ“ƒRƒ“ƒgƒ[ƒ‰‚Å‚·B
 
 #### MACSDRV Version 1.16‚ÌŸŽè‚É‰ü‘¢ ˆø—p
 >ŠT—v  
@@ -20,17 +36,20 @@ MACS‚Æ‚ÍH
 >    -s6     512x256 16F  
 >    -s7     256x256 16F    (ƒIƒŠƒWƒiƒ‹MACS‚Æ“¯‚¶‰æ–Êƒ‚[ƒh‚Ì‰ü‘¢”Åj  
 
->  PCM8++‚ª‘Î‰ž‚·‚é‚·‚×‚Ä‚ÌŒ`Ž®  
+>  PCM8A,PCM8pp‚ª‘Î‰ž‚·‚é‚·‚×‚Ä‚ÌŒ`Ž®  
 
+<a id="anchor2"></a>
 
-## MACSƒf[ƒ^ì¬•â•ƒc[ƒ‹iMACScnv.x)‚É‚Â‚¢‚Ä
+## MACSƒf[ƒ^ì¬•â•ƒc[ƒ‹iMACScnv2.x)‚É‚Â‚¢‚Ä
 #### ‚¢‚«‚³‚Â‚Æ–Ú“I
 MACSƒf[ƒ^‚ÍAƒvƒƒOƒ‰ƒ€(ƒAƒZƒ“ƒuƒ‰){‰æ‘œƒf[ƒ^{‰¹ºƒf[ƒ^‚Ì‘g‚Ý‡‚í‚¹‚Å‚·B  
-MACSƒf[ƒ^ì‚è‚Í‘å•Ï‚È‚Ì‚ÅAMACSƒf[ƒ^ì¬•â•ƒc[ƒ‹iMACScnv.x)‚ðì‚è‚Ü‚µ‚½B  
+MACSƒf[ƒ^ì‚è‚Í‘å•Ï‚È‚Ì‚ÅAMACSƒf[ƒ^ì¬•â•ƒc[ƒ‹iMACScnv2.x)‚ðì‚è‚Ü‚µ‚½B  
 #### ŠT—v
-–{ƒc[ƒ‹(MACScnv.x)‚ÍAMACSƒf[ƒ^‚ðì‚é‚½‚ß‚Ì•â•ƒc[ƒ‹‚Å‚·B  
-‰æ‘œƒf[ƒ^‚Æ‰¹ºƒf[ƒ^‚ð—pˆÓ‚µA•â•ƒc[ƒ‹‚ªo—Í‚·‚éƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ðŽÀs‚·‚ê‚ÎAMACSƒf[ƒ^‚ªì‚ê‚éŽd‘g‚Ý‚É‚È‚Á‚Ä‚¢‚Ü‚·B  
+–{ƒc[ƒ‹(MACScnv2.x)‚ÍAMACSƒf[ƒ^‚ðì‚é‚½‚ß‚Ì•â•ƒc[ƒ‹‚Å‚·B  
+‰æ‘œƒf[ƒ^‚Æ‰¹ºƒf[ƒ^‚ð—pˆÓ‚µA•â•ƒc[ƒ‹‚ªo—Í‚·‚éƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ðŽÀs‚·‚ê‚ÎA  
+MACSƒf[ƒ^‚ªì‚ê‚éŽd‘g‚Ý‚É‚È‚Á‚Ä‚¢‚Ü‚·B  
 
+<a id="anchor3"></a>
 ------------
 ### H’ö
 MACSƒf[ƒ^ì¬‚É‚ÍA‰º‹L‚Ì‚QH’ö‚ª‚ ‚è‚Ü‚·B  
@@ -41,42 +60,43 @@ WindowsŠÂ‹«“™‚Å“®‰æƒf[ƒ^‚©‚çA‰æ‘œƒf[ƒ^‚Æ‰¹ºƒf[ƒ^‚ð’Šo‚µAMACSƒf[ƒ^‚Ì‘fÞ‚
 
    2.***ƒf[ƒ^‰ÁH H’ö***  
 
-| No.| ƒoƒbƒ`ƒtƒ@ƒCƒ‹–¼    | ŠT—v                                |
-|----|---------------------|-------------------------------------|
-| 1  | 0_MakeTxTp.bat      | ‰æ‘œˆ—  |
-| 2  | 1_MakePCM.bat       | ‰¹ºƒf[ƒ^•ÏŠ·  |
-| 3  | 2_MakeLZE.bat       | ‰æ‘œˆ³kiWindows‚ÅŽÀs„§j  |
-| 4  | 3_MakeBLK.bat       | ƒf[ƒ^ƒIƒuƒWƒFƒNƒg¶¬  |
-| 5  | 4_MakeMACS.bat      | ƒAƒZƒ“ƒuƒ‹AƒŠƒ“ƒNAMACSƒf[ƒ^ì¬  |
+| No. | ƒoƒbƒ`ƒtƒ@ƒCƒ‹–¼    | ŠT—v                                    |
+|-----|---------------------|-----------------------------------------|
+| 1-1 | 0_MakeTxTp_Win.bat  | ‰æ‘œˆ—(-s1,-s2‚Ì‚Ý) iWindows‚ÅŽÀsj |
+| 1-2 | 0_MakeTxTp.bat      | ‰æ‘œˆ—               |
+| 1-3 | 0_MakeTx.bat        | ‰æ‘œˆ—(-s0,-s5‚Ì‚Ý)  |
+| 2   | 1_MakePCM.bat       | ‰¹ºƒf[ƒ^•ÏŠ·  |
+| 3   | 2_MakeLZSA_Win.bat  | ‰æ‘œˆ³kiWindows‚ÅŽÀsj  |
+| 4   | 3_MakeMACS.bat      | ƒAƒZƒ“ƒuƒ‹AƒŠƒ“ƒNAMACSƒf[ƒ^ì¬  |
 
-ã‹L‚Ì‚æ‚¤‚ÉMACSƒf[ƒ^ì¬•â•ƒc[ƒ‹iMACScnv.x)‚ªA‚T‚Â‚Ìƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ð¶¬‚·‚é‚Ì‚ÅA‡”Ô‚ÉŽÀs‚µ‚ÄMACSƒf[ƒ^‚ðì‚è‚Ü‚·B
+ã‹L‚Ì‚æ‚¤‚ÉMACSƒf[ƒ^ì¬•â•ƒc[ƒ‹iMACScnv2.x)‚ªA‚S‚Â‚Ìƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ð¶¬‚µ‚Ü‚·B  
+‚»‚ê‚ðã‚©‚ç‡”Ô‚ÉŽÀs‚µ‚ÄMACSƒf[ƒ^‚ðì‚è‚Ü‚·B
 
+<a id="anchor4"></a>
 ### •K—v‚ÈŠÂ‹«
 Windows‚ÆX68000ŠÔ‚Åƒf[ƒ^‚Ì‚â‚èŽæ‚è‚ª‚Å‚«‚é‚±‚ÆB
 #### Windows ƒ\ƒtƒgƒEƒFƒA
-| No.| ƒc[ƒ‹–¼            |Version | ŠT—v                                |
-|----|---------------------|--------|-------------------------------------|
-| 1  | VideoProc Converter |        |“®‰æ‚ð‰æ‘œƒf[ƒ^‚Æ‰¹ºƒf[ƒ^‚É•ª‰ð  |
-|    | AviUtl              |0.06    |˜A”ÔBMPo—ÍPlugin  |
-|    |                     |        |ResizeFilter  |
-| 2  | IrfanView           |        |•¡”‚Ì‰æ‘œƒf[ƒ^‚ðˆêŠ‡‚Å‰ÁH‚Å‚«‚é  |
+| No.| ƒc[ƒ‹–¼            |Version | ŠT—v                                |ŠÝ|
+|----|---------------------|--------|-------------------------------------|----|
+| 1  | VideoProc Converter | 5.0    |“®‰æ‚ð‰æ‘œƒf[ƒ^‚Æ‰¹ºƒf[ƒ^‚É•ª‰ð  |ƒCƒ“ƒ^[ƒlƒbƒg|
+| 2  | IrfanView           | 4.53   |•¡”‚Ì‰æ‘œƒf[ƒ^‚ðˆêŠ‡‚Å‰ÁH‚Å‚«‚é  |ƒCƒ“ƒ^[ƒlƒbƒg|
+| 3  | macscnv.exe         | 0.1.7  |MACS—pBMP¨Tx/Tp•ÏŠ·ƒc[ƒ‹ v0.1 for Windows |X68K BBS|
+| 4  | lzsa.exe            |        |ƒf[ƒ^ˆ³k                          |ƒCƒ“ƒ^[ƒlƒbƒg|
+
+¦AviUtl‚Å‚àƒvƒ‰ƒOƒCƒ“‚ðŠˆ—p‚·‚ê‚Î“¯“™‚Ì‚±‚Æ‚ª‰Â”\‚Å‚·B—v‚ÍX68000‚Å•\Ž¦o—ˆ‚é‚æ‚¤‚É‚·‚ê‚ÎOK  
 
 #### X68k ƒ\ƒtƒgƒEƒFƒA
 | No.| ƒc[ƒ‹–¼         |Version | ŠT—v                                |ŠÝ|
 |----|------------------|--------|-------------------------------------|----|
-| 1  | FLOATx.X         |        | •‚“®¬”“_Œ^(float)‚ªˆµ‚¦‚é         |ƒVƒXƒeƒ€ƒfƒBƒXƒN‚É“¯«|
-| 2  | (V)TwentyOne.sys |        | ’·‚¢ƒtƒ@ƒCƒ‹–¼‚ªˆµ‚¦‚é              |ƒŠƒ“ƒNŽQÆ|
+| 1  | FLOATx.X         |x=2,3,4 | •‚“®¬”“_Œ^(float)‚ªˆµ‚¦‚é         |ƒVƒXƒeƒ€ƒfƒBƒXƒN‚É“¯«|
+| 2  | (V)TwentyOne.sys |v1.36c+14 | ’·‚¢ƒtƒ@ƒCƒ‹–¼‚ªˆµ‚¦‚é              |ƒŠƒ“ƒNŽQÆ|
 | 3  | MACSDRV.x        |0.15.11 | í’“Œ^‚ÌƒAƒjƒ[ƒVƒ‡ƒ“ƒRƒ“ƒgƒ[ƒ‰  |X68K BBS|
 | 4  | MakeMCS.x        |1.01    | MACSƒf[ƒ^¶¬                      |MACS116.LZH‚É“¯«  |
-| 5  | APICG.r          |2.11A   | ‰æ‘œƒ[ƒ_[                        |ƒŠƒ“ƒNŽQÆ|
-| 6  | gvrsave.x        |0.2.15   | ‰æ‘œƒZ[ƒo[                        |ƒŠƒ“ƒNŽQÆ|
-| 7  | lze.x            |        | ƒf[ƒ^ˆ³k                          |MACSDRV Version 1.16‚ÌŸŽè‚É‰ü‘¢‚É“¯«|
-| 8  | lze.exe          |        | ƒf[ƒ^ˆ³k(Windows—p)               |MACSDRV Version 1.16‚ÌŸŽè‚É‰ü‘¢‚É“¯«|
-| 9  | 060high.x        |0.10    | ƒvƒƒOƒ‰ƒ€‚ðhighƒƒ‚ƒŠ‚ÅŽÀs        |ƒŠƒ“ƒNŽQÆ|
-| 10 | HAS060.x         |3.09+89 | ƒAƒZƒ“ƒuƒ‰                          |ƒŠƒ“ƒNŽQÆ|
-| 11 | hlk.r            |3.01+15 | ƒŠƒ“ƒJ                              |ƒŠƒ“ƒNŽQÆ|
-| 12 | pcm3pcm.x        |2.15    | WAV‚©‚çPCM‚Ö•ÏŠ·‚·‚é                |‚Ç‚±H|
-| 13 | MACScnv.x        |1.04    | MACSƒf[ƒ^ì¬•â•                  |X68K BBS|
+| 5  | 060high.x        |0.10    | ƒvƒƒOƒ‰ƒ€‚ðhighƒƒ‚ƒŠ‚ÅŽÀs        |ƒŠƒ“ƒNŽQÆ|
+| 6 | HAS060.x         |3.09+89 | ƒAƒZƒ“ƒuƒ‰                          |ƒŠƒ“ƒNŽQÆ|
+| 7 | hlk.r            |3.01+15 | ƒŠƒ“ƒJ                              |ƒŠƒ“ƒNŽQÆ|
+| 8 | pcm3pcm.x        |2.15    | WAV‚©‚çPCM‚Ö•ÏŠ·‚·‚é                |‚Ç‚±H|
+| 9 | MACScnv2.x        |2.00    | MACSƒf[ƒ^ì¬•â•                  |X68K BBS|
 
 #### X68k ƒwƒbƒ_ƒtƒ@ƒCƒ‹
 | No.| ƒtƒ@ƒCƒ‹–¼       | ŠT—v                |ŠÝ               |
@@ -84,9 +104,14 @@ Windows‚ÆX68000ŠÔ‚Åƒf[ƒ^‚Ì‚â‚èŽæ‚è‚ª‚Å‚«‚é‚±‚ÆB
 | 1  | MACS_sch.h       | MACS—pƒwƒbƒ_ƒtƒ@ƒCƒ‹|MACSDRV Version 1.16‚ÌŸŽè‚É‰ü‘¢‚É“¯«  |
 
 #### X68k ƒn[ƒhƒEƒFƒA
-–{‘ÌFX68000+PhantomX(060ƒ‚[ƒhjAX68030+060turboA‚à‚µ‚­‚ÍAƒGƒ~ƒ…ƒŒ[ƒ^ XEiJ(060turbo)  
+–{‘ÌFX68000+PhantomX(030,040,060ƒ‚[ƒhjAX68030+060turboA‚à‚µ‚­‚ÍAƒGƒ~ƒ…ƒŒ[ƒ^ XEiJ(060turbo)¦    
 ƒƒ‚ƒŠFƒnƒCƒƒ‚ƒŠ128MBˆÈãi„§j  
 Šg’£ƒ{[ƒhF‚Ü[‚«‚ã‚è[‚ä‚É‚Á‚Æi„§j  
+
+¦Windowsƒhƒ‰ƒCƒu‚ðHFS‚Åƒ}ƒEƒ“ƒg‚µ‚ÄŽÀŽ{‚­‚¾‚³‚¢  
+¦Windowsƒhƒ‰ƒCƒuã‚Åì‹Æ‚·‚é‚½‚ßAƒGƒ~ƒ…ƒŒ[ƒ^XM6g‚Å‚ÍA‚²—˜—p‚Å‚«‚Ü‚¹‚ñB  
+
+<a id="anchor5"></a>
 ### ƒŠƒ“ƒN
 
 - [ƒVƒXƒeƒ€ƒfƒBƒXƒN](http://retropc.net/x68000/software/sharp/human302/):Makoto Kamada‚³‚ñ‚ÌX68000 LIBRARY‚Ìƒy[ƒW
@@ -96,13 +121,15 @@ Windows‚ÆX68000ŠÔ‚Åƒf[ƒ^‚Ì‚â‚èŽæ‚è‚ª‚Å‚«‚é‚±‚ÆB
 - [HAS](http://http://retropc.net/x68000/software/develop/as/has/):Makoto Kamada‚³‚ñ‚ÌX68000 LIBRARY‚Ìƒy[ƒW
 - [hlk](https://github.com/kg68k/hlk-ev/releases/):—§‰Ô@ŒK“‡‹ZŒ¤‚³‚ñ‚ÌGitHub
 
+<a id="anchor6"></a>
 ## Žè‡
 
 ---
-### 1. D‚«‚È“®‰æƒtƒ@ƒCƒ‹‚ð€”õ‚µ‚æ‚¤I<BR>
+### 1. “®‰æƒtƒ@ƒCƒ‹‚ð€”õ‚µ‚æ‚¤I<BR>
 VideoProc Converter‚Ì‹@”\‚ª•Ö—˜‚Å‚·B<BR>
 ‘ÌŒ±”Å‚ÍA‚T•ª‚Ü‚Å‚Ì§–ñ‚ª‚ ‚è‚Ü‚·‚ªAX68000‚Å‚Íˆµ‚¢‚«‚ê‚È‚¢ƒTƒCƒY‚È‚Ì‚Å–â‘è‚ ‚è‚Ü‚¹‚ñB(Î)
 
+<a id="anchor7"></a>
 ---
 ### 2. VideoProc Converter‚Å“®‰æƒtƒ@ƒCƒ‹‚©‚ç‰æ‘œƒf[ƒ^(PNG)‚ðo—Í‚µ‚æ‚¤I<BR>
 uƒrƒfƒIv‚ð‘I‘ð‚µ‚Ü‚·B<BR>
@@ -120,6 +147,7 @@ VideoProc Converter‚Ì‹@”\‚ª•Ö—˜‚Å‚·B<BR>
 PNGƒtƒ@ƒCƒ‹‚ª’Šo‚³‚ê‚Ü‚·B<BR>
 ![ÃŽ~‰æ](img/GP5.png)<BR>
 
+<a id="anchor8"></a>
 ---
 ### 3. VideoProc Converter‚Å“®‰æƒtƒ@ƒCƒ‹‚©‚ç‰¹ºƒf[ƒ^(WAV)‚ðo—Í‚µ‚æ‚¤I<BR>
 ‰º‚Ìƒƒjƒ…[‚©‚çuPCMv‚ð‘I‘ð‚µ‚Ü‚·B<BR>
@@ -131,8 +159,9 @@ PNGƒtƒ@ƒCƒ‹‚ª’Šo‚³‚ê‚Ü‚·B<BR>
 WAVƒtƒ@ƒCƒ‹‚ªì¬‚³‚ê‚é‚Ì‚ÅA•¡»‚ðì‚èuAD.WAVv‚Éƒtƒ@ƒCƒ‹–¼‚ð•ÏX‚­‚¾‚³‚¢B<BR>
 ![‰¹º](img/WA4.png)<BR>
 
+<a id="anchor9"></a>
 ---
-### 4. ƒŠƒTƒCƒY•Œ¸F•PNG¨BMP•ÏŠ·‚µ‚æ‚¤I<BR>
+### 4. IrfanView‚ÅƒŠƒTƒCƒY•Œ¸F•PNG¨BMP•ÏŠ·‚µ‚æ‚¤I<BR>
 uƒtƒ@ƒCƒ‹v¨uˆêŠ‡ˆ—v<BR>
 ![‰ÁH1](img/CG1.png)<BR>
 ---
@@ -144,7 +173,7 @@ WAVƒtƒ@ƒCƒ‹‚ªì¬‚³‚ê‚é‚Ì‚ÅA•¡»‚ðì‚èuAD.WAVv‚Éƒtƒ@ƒCƒ‹–¼‚ð•ÏX‚­‚¾‚³‚¢B<BR
 ![‰ÁH1](img/CG2.png)<BR>
 ---
 uÚ×Ý’èv‚ð‰Ÿ‚·<BR>
-uŠJŽn”Ô†v¨ 0<BR>
+uŠJŽn”Ô†v¨ 10000<BR>
 u‰ÁŽZ”v ¨ 1<BR>
 ![‰ÁH1](img/CG3.png)<BR>
 ---
@@ -160,10 +189,14 @@ WAVƒtƒ@ƒCƒ‹‚ªì¬‚³‚ê‚é‚Ì‚ÅA•¡»‚ðì‚èuAD.WAVv‚Éƒtƒ@ƒCƒ‹–¼‚ð•ÏX‚­‚¾‚³‚¢B<BR
 uƒLƒƒƒ“ƒoƒXƒTƒCƒY•ÏXv‚Éƒ`ƒFƒbƒN‚ð“ü‚½‚ç<BR>
 uÝ’èŠm”Fv‚ð‰Ÿ‚·
 uMethod1v‚ÌuTop sidevuBottom sidev‚ðL‚°‚é<BR>
-¡‰ñ‚Ì—á‚¾‚Æ 256x192¨256x256‚ÉƒTƒCƒY‚ð•ÏX‚·‚é‚É‚ÍA<BR>
+¡‰ñ‚Ì—á‚¾‚ÆŒ³‰æ‘œ‚ª960x720‚Ì4:3‚Ì‰æ‘œ‚È‚Ì‚Å‰¡•‚ð256‚É‚·‚é‚Æ‚‚³‚Í192‚É‚È‚è‚Ü‚·B<BR>
+256x192‚Ì‰æ‘œ‚©‚ç256x256‚ÉƒTƒCƒY‚ð•ÏX‚·‚é‚É‚ÍA<BR>
 ‚‚³‚ª‘«‚è‚Ä‚È‚¢‚Ì‚Åã‰º32ƒsƒNƒZƒ‹‚¸‚Â‘‚â‚·B<BR>
 uCanvas Colorv‚ÍA•‚É‚µ‚Ä‚¨‚«‚Ü‚µ‚å‚¤B<BR>
 ![‰ÁH1](img/CG10.png)<BR>
+‘¼‚ÉŒ³‰æ‘œ‚ª1280x720‚Ì16:9‚Ì‰æ‘œ‚Í‰¡•‚ð256‚É‚·‚é‚Æ‚‚³‚Í144‚É‚È‚è‚Ü‚·B<BR>
+256x144‚Ì‰æ‘œ‚©‚ç256x256‚ÉƒTƒCƒY‚ð•ÏX‚·‚é‚É‚ÍA<BR>
+‚‚³‚ª‘«‚è‚Ä‚È‚¢‚Ì‚Åã‰º56ƒsƒNƒZƒ‹‚¸‚Â‘‚â‚·‚æ‚¤‚É‚µ‚Ü‚·<BR>
 ---
 u‚·‚×‚Ä’Ç‰Áv‚ð‰Ÿ‚µ‚Äuì‹Æƒtƒ@ƒCƒ‹‚Ì”v‚É“o˜^‚·‚éB<BR>
 u•À‚×‘Ö‚¦v‚ð‰Ÿ‚µ‚ÄAu¬¬‚Ì–¼‘Ov‚ð‘I‘ð‚µAƒtƒ@ƒCƒ‹–¼‚ª‚P‚©‚ç‡”Ô‚É•À‚Ô‚æ‚¤‚É‚·‚éB<BR>
@@ -173,6 +206,7 @@ WAVƒtƒ@ƒCƒ‹‚ªì¬‚³‚ê‚é‚Ì‚ÅA•¡»‚ðì‚èuAD.WAVv‚Éƒtƒ@ƒCƒ‹–¼‚ð•ÏX‚­‚¾‚³‚¢B<BR
 ![‰ÁH1](img/CG14.png)<BR>
 uƒTƒCƒY•ÏXv¨uƒLƒƒƒ“ƒoƒXƒTƒCƒY•ÏXv¨u•\Ž¦F•ÏXv‚Ì‡‚ÉÝ’è‚·‚éB
 ![‰ÁH1](img/CG13.png)<BR>
+¦uÝ’è‚ðƒtƒ@ƒCƒ‹‚É‚Ä•Û‘¶v‚ÅÝ’èƒtƒ@ƒCƒ‹‚ð•Û‘¶‚·‚é‚Æ‚¢‚¢‚Å‚µ‚å‚¤B
 ---
 ‘S‚ÄÝ’è‚Å‚«‚½‚çuŽÀsv‚ð‰Ÿ‚·B
 ![‰ÁH1](img/CG6.png)<BR>
@@ -180,67 +214,92 @@ WAVƒtƒ@ƒCƒ‹‚ªì¬‚³‚ê‚é‚Ì‚ÅA•¡»‚ðì‚èuAD.WAVv‚Éƒtƒ@ƒCƒ‹–¼‚ð•ÏX‚­‚¾‚³‚¢B<BR
 ƒAƒXƒyƒNƒg”ä‚ª•ÛŽ‚³‚ê‚½BMP‰æ‘œ‚ª‚Å‚«‚éB<BR>
 ![‰ÁH2](img/CG12.png)<BR>
 
+<a id="anchor10"></a>
 ---
-### 6. MACSƒf[ƒ^ì¬•â•ƒc[ƒ‹iMACScnv.x)‚ðŽÀs‚µ‚æ‚¤I<BR>
+### 5. MACSƒf[ƒ^ì¬•â•ƒc[ƒ‹iMACScnv2.x)‚ÅMACSƒf[ƒ^ì¬ƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ðì¬‚µ‚æ‚¤I<BR>
 X68000‚ÌƒGƒ~ƒ…ƒŒ[ƒ^‚ð‹N“®‚µ‚ÄA•ÏŠ·‚µ‚½BMP‚ª’u‚¢‚Ä‚ ‚éƒpƒX‚ÉˆÚ“®‚·‚éB<BR>
-MACScnv.xAMACS_SCH.hAlze.exe‚ðƒRƒs[‚µ‚Ä‚¨‚­B<BR>
+MACScnv2.xAMACS_SCH.hAmacscnv.exeAlzsa.exe‚ðƒRƒs[‚µ‚Ä‚¨‚­B<BR>
 •ÏŠ·‚Å•K—v‚Èƒc[ƒ‹‚ÍAƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ÌƒRƒ}ƒ“ƒh‚ªŽÀs‚Å‚«‚é‚æ‚¤‚ÉPATHÝ’è‚µ‚Ä‚¨‚­B<BR>
 ![MACS](img/MC1.png)<BR>
 ---
-MACSƒf[ƒ^ì¬•â•ƒc[ƒ‹iMACScnv.x)‚ðŽÀs‚·‚éB<BR>
-‰º‹L‚Ì—á‚¾‚Æ<BR>
-ƒ‘æˆêˆø” ƒf[ƒ^‚ÌƒtƒH[ƒ}ƒbƒg‘I‘ð„ -s1‚È‚ç256x256 256F‚ÌMACSƒf[ƒ^‚ðì‚éB<BR>
-ƒ‘æ“ñˆø” ŠJŽn”Ô†„ 0‚È‚çCG00000‚ªÅ‰‚Ì‰æ‘œ‚É‚È‚éB<BR>
-ƒ‘æŽOˆø” ‘‰Á’l  „ 1‚È‚çCG00000ACG00001ACG00002ACG00003‚Æ+1‚¸‚Âˆ—‚·‚éB<BR>
-ƒ‘æŽlˆø” I—¹”Ô†„ 1943‚È‚çCG01943‚Ü‚Åˆ—‘ÎÛ‚Æ‚È‚éB<BR>
-ƒ‘æŒÜˆø” “®‰æ‚ÌÄ¶ŽžŠÔ or “®‰æ‚Ì‰¹º‚ÌÄ¶ŽžŠÔ„ ex. 1•ª21•b‚Ì“®‰æ‚È‚ç81•b‚È‚Ì‚Å81‚Æ“ü—Í‚·‚éB<BR><BR>
-‚±‚ê‚É‚æ‚èA1621€4‘S405–‡‚Ì‰æ‘œ‚ðŽg‚Á‚½MACSƒf[ƒ^‚ª‚Å‚«‚éBi1•b‚ ‚½‚è5–‡‚Ì‰æ‘œj
+MACSƒf[ƒ^ì¬•â•ƒc[ƒ‹iMACScnv2.x)‚ðŽÀs‚·‚éB<BR>
 ƒf[ƒ^‚ÌƒtƒH[ƒ}ƒbƒg  
->    -s0     256x256 65536F (ƒpƒŒƒbƒg•Û‘¶–³Œø)  
->    -s1     256x256 256F  
->    -s2     384x256 256F   (—vIPLROM1.6)  
->    -s3     512x512 16F  
->    -s4     512x512 4F     (ƒpƒŒƒbƒg‚Í16F•ª•Û‘¶)  
->    -s5     768x512 1F     (ƒpƒŒƒbƒg•Û‘¶–³Œø)  
->    -s6     512x256 16F  
->    -s7     256x256 16F    (ƒIƒŠƒWƒiƒ‹MACS‚Æ“¯‚¶‰æ–Êƒ‚[ƒh‚Ì‰ü‘¢”Åj  
-![MACS](img/MC2.png)<BR>
-ƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ÆƒoƒCƒiƒŠƒtƒ@ƒCƒ‹ƒŠƒXƒgAƒAƒZƒ“ƒuƒ‰ƒ\[ƒX‚ªì¬‚³‚ê‚éB<BR>
-![MACS](img/MC3.png)<BR>
-MACSsrc.s‚ðƒGƒfƒBƒ^‚ÅŠJ‚¢‚ÄTITLE‚ÆCOMMENT‚ð•ÒW‚µ‚Ä‚¨‚­B
-![MACS](img/MC3.png)<BR>
+>    -S0@256x256 65536F  
+>    -S1@256x256 256F  (default)  
+>    -S2@384x256 256F  
+>    -S3@512x512 16F  
+>    -S4@512x512 4F  
+>    -S5@768x512 1F  
+>    -S6@512x512 16F  
+>    -S7@256x256 16F  
 ---
-0_MakeTxTp.bat‚ðŽÀs‚µ‚ÄAMACSƒf[ƒ^‚É•K—v‚È‰æ‘œ‚ðì‚éB
+‰¹º‚ÌƒtƒH[ƒ}ƒbƒg  
+>    -M0@ADPCM only  
+>    -M1@ADPCM+PCM 44kHz (default)  
+>    -M2@ADPCM+PCM 22kHz  
+---
+ƒtƒŒ[ƒ€ƒŒ[ƒg  
+>    -F0@15.0   fps  
+>    -F1@13.865 fps 31kHz  
+>    -F2@18.486 fps 31kHz  
+>    -F3@24.0   fps  
+>    -F4@23.976 fps  
+>    -F5@30.0   fps  
+>    -F6@29.97  fps  
+>    -F7@27.729 fps(default)  
+>    -F8@55.458 fps  
+>    -F”’l  ”CˆÓ‚Ìfps ¦  <BR>
+      ex1: 20fps‚Ì“®‰æ‚È‚ç -F20    iS/W“à‚Å1000”{‚µ‚Ä‚Ü‚·j <BR>
+      ex2: 28.456fps‚Ì“®‰æ‚È‚ç -F20456   <BR>
+      ¦”’l‚Í10‚æ‚è‘å‚«‚¢’l‚ð“ü—Í‚­‚¾‚³‚¢  <BR>
+---
+ƒ^ƒCƒgƒ‹‚ÆƒRƒƒ“ƒg  
+>    -T <ƒ^ƒCƒgƒ‹>  
+>    -C <ƒRƒƒ“ƒg>  
+---
+‰º‹L‚Ì—á‚¾‚Æ1944–‡‚Ì256x256ƒTƒCƒY‚Ì256F‚Ì‰æ‘œ‚Æ ADPCM‚ÆPCM 44kHz‚ðŽg‚Á‚½MACSƒf[ƒ^‚ðì‚é‚Æ‚±‚ë<BR>
+ƒ‘æˆêˆø” „ 256x256 256F<BR>
+ƒ‘æ“ñˆø” „ ADPCM+PCM 44kHz<BR>
+ƒ‘æŽOˆø” „ 24 fps  <BR>
+@@@@@@@@@@@‰½ŒÌH-F3‚ð‘I‘ð‚µ‚½‚Ì‚©H 1944[f]€81[s]24[fps]‚æ‚è<BR>
+ƒ‘æŽlˆø” „ CC_sakura_OP<BR>
+ƒ‘æŒÜˆø” „ moe<BR>
+ƒ‘æ˜Zˆø” ŠJŽn”Ô†„ Å‰‚Ì‰æ‘œƒtƒ@ƒCƒ‹–¼‚ªCG10000‚È‚ç10000<BR>
+ƒ‘æŽµˆø” I—¹”Ô†„ ÅŒã‚Ì‰æ‘œƒtƒ@ƒCƒ‹–¼‚ªCG11943‚È‚ç11943<BR>
+
+ŽÀs‚·‚é‚Æƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ÆƒoƒCƒiƒŠƒtƒ@ƒCƒ‹ƒŠƒXƒgAƒAƒZƒ“ƒuƒ‰ƒ\[ƒX‚ªì¬‚³‚ê‚éB<BR>
+![MACS](img/MC3.png)<BR>
+-TƒIƒvƒVƒ‡ƒ“A-CƒIƒvƒVƒ‡ƒ“‚ðŽg‚í‚È‚­‚Ä‚àAŒã‚ÅMACSsrc.s‚ðƒeƒLƒXƒgƒGƒfƒBƒ^‚ÅŠJ‚¢‚ÄTITLE‚ÆCOMMENT‚ð•ÒW‚µ‚Ä‚à‚æ‚¢B<BR>
+---
+0_MakeTxTp_Win.bat‚ðŽÀs‚µ‚ÄAMACSƒf[ƒ^‚É•K—v‚È‰æ‘œ‚ðì‚éB<BR>
+i_Win.bat‚ª‚Â‚­ƒtƒ@ƒCƒ‹–¼‚ÍAWindows‚ÌƒGƒNƒXƒvƒ[ƒ‰[‚©‚çŽÀsj<BR>
+‘I‘ðƒIƒvƒVƒ‡ƒ“ŽŸ‘æ‚Å‚ÍAX68000‚Åì‹Æ‚·‚é•K—v‚ ‚è<BR>
 ![MACS](img/MC5.png)<BR>
-BMP‰æ‘œ‚ð•ÏŠ·‚µ‚Ä‚¢‚é—lŽqi2000–‡‚Å40•ª‚®‚ç‚¢j<BR>
-![MACS](img/MC5-1.png)<BR>
+’´â”š‘¬II
+![MACS](img/MC6.png)<BR>
 ---
 1_MakePCM.bat‚ðŽÀs‚µ‚ÄAWAVƒtƒ@ƒCƒ‹‚ðADPCM‚Æ‚Ü[‚«‚ã‚è[‚ä‚É‚Á‚Æ‚Ìƒf[ƒ^‚É•ÏŠ·‚·‚é<BR>
-![MACS](img/MC6.png)<BR>
-•ÏŠ·‚µ‚Ä‚é—lŽq<BR>
 ![MACS](img/MC6-1.png)<BR>
 ---
-2_MakeLZE.bat‚ðŽÀs‚µ‚Ä‰æ‘œ‚ðˆ³k‚·‚éBi‚±‚±‚¾‚¯Windows‚ÌƒGƒNƒXƒvƒ[ƒ‰[‚©‚çŽÀsj<BR>
+2_MakeLZSA_Win.bat‚ðŽÀs‚µ‚Ä‰æ‘œ‚ðˆ³k‚·‚éB<BR>
+i_Win.bat‚ª‚Â‚­ƒtƒ@ƒCƒ‹–¼‚ÍAWindows‚ÌƒGƒNƒXƒvƒ[ƒ‰[‚©‚çŽÀsj<BR>
 ![MACS](img/MC7.png)<BR>
-‚±‚¿‚ç‚à‚»‚±‚»‚±ŽžŠÔ‚ª‚©‚©‚é‚ªAX68000‚Åì‹Æ‚·‚é‚æ‚è‚à30”{‚®‚ç‚¢‘¬‚¢<BR>
+‚±‚¿‚ç‚à‚»‚±‚»‚±ŽžŠÔ‚ª‚©‚©‚é‚ªAX68000‚Åì‹Æ‚·‚é‚æ‚è‚à‘¬‚¢<BR>
 ![MACS](img/MC7-1.png)<BR>
 ---
-3_MakeBLK.bat‚ðŽÀs‚µ‚Ä•ÏŠ·‚³‚ê‚½ƒf[ƒ^‚ðƒIƒuƒWƒFƒNƒg‚É•ÏŠ·‚·‚éiŒ»óA‚±‚±‚©‚ç‚ÍXEiJ‚Åì‹Æ‚·‚é‚±‚Æ‚ðƒIƒXƒXƒ‚µ‚Ü‚·j<BR>
-![MACS](img/MC10.png)<BR>
-•ÏŠ·‚µ‚Ä‚¢‚é—lŽq  
-¦ƒeƒ“ƒ|ƒ‰ƒŠÝ’è‚ðRAMƒfƒBƒXƒN“™‚ÉÝ’è‚µ‚Ä‚¢‚é‚ÆƒTƒCƒY‚ª‘«‚è‚È‚¢‚Ì‚Å-t <ƒpƒX–¼>‚ð’Ç‰Á‚µ‚Äì‹Æ‚µ‚Ä‚¢‚é<BR>
-![MACS](img/MC10-1.png)<BR>
----
-4_MakeMACS‚ðŽÀs‚µ‚ÄAƒAƒZƒ“ƒuƒ‹AƒŠƒ“ƒN(ƒRƒ“ƒo[ƒg)AMACSƒf[ƒ^‰»‚ðs‚¤<BR>
-![MACS](img/MC8.png)<BR>
+3_MakeMACS.bat‚ðŽÀs‚µ‚ÄAƒAƒZƒ“ƒuƒ‹AƒŠƒ“ƒN(ƒRƒ“ƒo[ƒg)AMACSƒf[ƒ^‰»‚ðs‚¤<BR>
 MACSsrc.MCSƒtƒ@ƒCƒ‹‚ªì¬‚³‚ê‚éB  
-¦ƒtƒ@ƒCƒ‹–¼iMACSsrc.MCSj‚ÍA“K“–‚ÉƒŠƒl[ƒ€‚µ‚Ä‚¨‚­‚Æ‚¢‚¢‚Å‚µ‚å‚¤B<BR>
+¦‚±‚±‚ÅƒnƒCƒƒ‚ƒŠ‚ª•K—v‚É‚È‚è‚Ü‚·Bì¬‚·‚éƒf[ƒ^‚Ì”{ƒTƒCƒY‚Ìƒƒ‚ƒŠ‚ª•K—v‚Å‚·B<BR>
+¦ƒtƒ@ƒCƒ‹–¼iMACSsrc.MCSj‚ÍA‚ ‚Æ‚Å“K“–‚ÉƒŠƒl[ƒ€‚µ‚Ü‚µ‚å‚¤B<BR>
 ![MACS](img/MC8-1.png)<BR>
 
+<a id="anchor11"></a>
 ---
 ### 6. Ä¶‚µ‚Ä‚Ý‚æ‚¤I<BR>
+#### MACSƒhƒ‰ƒCƒo‚ðí’“‚µ‚æ‚¤I
 PCM8A.X ‚à‚µ‚­‚ÍAPCM8PP.X‚ðí’“‚³‚¹‚½Œã‚ÉAMACSDRV.X‚ðí’“‚·‚éB<BR>
 ![MACS](img/MC9.png)<BR>
+#### “®‰æ‚ðÄ¶‚µ‚æ‚¤I
 \>MACSplay.x MACSsrc.MCS<BR>
 ![MACS](img/MC9-1.png)<BR>
 “®‰æ‚ªÄ¶‚Å‚«‚½‚çŠ®¬‚Å‚·I<BR>
