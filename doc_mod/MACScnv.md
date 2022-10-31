@@ -98,7 +98,7 @@ WindowsとX68000間でデータのやり取りができること。
 | 6 | HAS060.x         |3.09+89 | アセンブラ                          |リンク参照|
 | 7 | hlk.r            |3.01+15 | リンカ                              |リンク参照|
 | 8 | pcm3pcm.x        |2.15    | WAVからPCMへ変換する                |どこ？|
-| 9 | MACScnv2.x        |2.00    | MACSデータ作成補助                  |X68K BBS|
+| 9 | MACScnv2.x        |2.01    | MACSデータ作成補助                  |X68K BBS|
 
 ※私の環境のオプション設定
 DEVICE    = \DEV\060turbo\060turbo.sys -bs512 -cm1 -dv -ld4ma -lr -ls -lt -np -sd -ss -ts512 -xm
