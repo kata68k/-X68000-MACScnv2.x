@@ -223,7 +223,7 @@ WAVファイルが作成されるので、複製を作り「AD.WAV」にファイル名を変更ください。<BR
 ---
 ### 5. MACSデータ作成補助ツール（MACScnv2.x)でMACSデータ作成バッチファイルを作成しよう！<BR>
 X68000のエミュレータを起動して、変換したBMPが置いてあるパスに移動する。<BR>
-MACScnv2.x、MACS_SCH.h、macscnv.exe、lzsa.exeをコピーしておく。<BR>
+MACScnv2.x、MACS_SCH.h、macscnv.exe、lzsa.exe xeijwin.dllをコピーしておく。<BR>
 変換で必要なツールは、バッチファイルのコマンドが実行できるようにPATH設定しておく。<BR>
 ![MACS](img/MC1.png)<BR>
 ---
