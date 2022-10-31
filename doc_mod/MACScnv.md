@@ -62,6 +62,7 @@ WindowsŠÂ‹«“™‚Å“®‰æƒf[ƒ^‚©‚çA‰æ‘œƒf[ƒ^‚Æ‰¹ºƒf[ƒ^‚ð’Šo‚µAMACSƒf[ƒ^‚Ì‘fÞ‚
 
 | No. | ƒoƒbƒ`ƒtƒ@ƒCƒ‹–¼    | ŠT—v                                    |
 |-----|---------------------|-----------------------------------------|
+| 0 | 00_MakeAll_Win.bat ¦  | ‰º‹LBATƒtƒ@ƒCƒ‹‚ðWindows‚©‚çŽÀs‚·‚é‚½‚ß‚ÌBATƒtƒ@ƒCƒ‹<BR>iWindows‚ÅŽÀsj|
 | 1-1 | 0_MakeTxTp_Win.bat  | ‰æ‘œˆ—(-s1,-s2‚Ì‚Ý) iWindows‚ÅŽÀsj |
 | 1-2 | 0_MakeTxTp.bat      | ‰æ‘œˆ—               |
 | 1-3 | 0_MakeTx.bat        | ‰æ‘œˆ—(-s0,-s5‚Ì‚Ý)  |
@@ -70,7 +71,8 @@ WindowsŠÂ‹«“™‚Å“®‰æƒf[ƒ^‚©‚çA‰æ‘œƒf[ƒ^‚Æ‰¹ºƒf[ƒ^‚ð’Šo‚µAMACSƒf[ƒ^‚Ì‘fÞ‚
 | 4   | 3_MakeMACS.bat      | ƒAƒZƒ“ƒuƒ‹AƒŠƒ“ƒNAMACSƒf[ƒ^ì¬  |
 
 ã‹L‚Ì‚æ‚¤‚ÉMACSƒf[ƒ^ì¬•â•ƒc[ƒ‹iMACScnv2.x)‚ªA‚S‚Â‚Ìƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ð¶¬‚µ‚Ü‚·B  
-‚»‚ê‚ðã‚©‚ç‡”Ô‚ÉŽÀs‚µ‚ÄMACSƒf[ƒ^‚ðì‚è‚Ü‚·B
+‚»‚ê‚ðã‚©‚ç‡”Ô‚ÉŽÀs‚µ‚ÄMACSƒf[ƒ^‚ðì‚è‚Ü‚·B  
+¦XEiJ‚ðŽg‚¦‚ÎA‘S‚Ä‚ÌBATƒtƒ@ƒCƒ‹‚ðWindows‚©‚çŽÀs‚·‚é‚±‚Æ‚ª‰Â”\‚Å‚·B
 
 <a id="anchor4"></a>
 ### •K—v‚ÈŠÂ‹«
@@ -97,6 +99,9 @@ Windows‚ÆX68000ŠÔ‚Åƒf[ƒ^‚Ì‚â‚èŽæ‚è‚ª‚Å‚«‚é‚±‚ÆB
 | 7 | hlk.r            |3.01+15 | ƒŠƒ“ƒJ                              |ƒŠƒ“ƒNŽQÆ|
 | 8 | pcm3pcm.x        |2.15    | WAV‚©‚çPCM‚Ö•ÏŠ·‚·‚é                |‚Ç‚±H|
 | 9 | MACScnv2.x        |2.00    | MACSƒf[ƒ^ì¬•â•                  |X68K BBS|
+
+¦Ž„‚ÌŠÂ‹«‚ÌƒIƒvƒVƒ‡ƒ“Ý’è
+DEVICE    = \DEV\060turbo\060turbo.sys -bs512 -cm1 -dv -ld4ma -lr -ls -lt -np -sd -ss -ts512 -xm
 
 #### X68k ƒwƒbƒ_ƒtƒ@ƒCƒ‹
 | No.| ƒtƒ@ƒCƒ‹–¼       | ŠT—v                |ŠÝ               |
@@ -270,7 +275,17 @@ MACSƒf[ƒ^ì¬•â•ƒc[ƒ‹iMACScnv2.x)‚ðŽÀs‚·‚éB<BR>
 ŽÀs‚·‚é‚Æƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ÆƒoƒCƒiƒŠƒtƒ@ƒCƒ‹ƒŠƒXƒgAƒAƒZƒ“ƒuƒ‰ƒ\[ƒX‚ªì¬‚³‚ê‚éB<BR>
 ![MACS](img/MC3.png)<BR>
 -TƒIƒvƒVƒ‡ƒ“A-CƒIƒvƒVƒ‡ƒ“‚ðŽg‚í‚È‚­‚Ä‚àAŒã‚ÅMACSsrc.s‚ðƒeƒLƒXƒgƒGƒfƒBƒ^‚ÅŠJ‚¢‚ÄTITLE‚ÆCOMMENT‚ð•ÒW‚µ‚Ä‚à‚æ‚¢B<BR>
+
+¦MACScnv2.x -q ‚ÅŽÀs‚·‚é‚ÆA‘Î˜bŽ®‚ÅƒIƒvƒVƒ‡ƒ“Ý’è‚Å‚«‚é‚æ‚¤‚É‚È‚Á‚½‚Ì‚ÅAƒIƒvƒVƒ‡ƒ“Ý’è‚ðŠo‚¦‚Ä‚È‚­‚Ä‚à‚Å‚«‚Ü‚·B(Î)
+![MACS](img/MC3-1.png)<BR>
+
 ---
+(Ž©“®‚Åì‚éê‡)  
+XEiJ‚Ì060turboŠÂ‹«‚ª‚ ‚ê‚ÎAXEiJ‹N“®ŒãAHFSƒhƒ‰ƒCƒu‚©‚çMACS‚Ì‘fÞ‚ª‚ ‚éƒtƒHƒ‹ƒ_‚ÉˆÚ“®‚µ‚Ä‚­‚¾‚³‚¢B  
+Windows‚©‚çu00_MakeAll_Win.batv‚ðŽÀs‚·‚é‚ÆAŒã‚Í‰½‚à‚¹‚¸AMACSƒf[ƒ^‚ªì‚ê‚é‚æ‚¤‚É‚È‚è‚Ü‚·B
+![MACS](img/MC4-1.png)<BR>
+---
+(Žè“®‚Åì‚éê‡)  
 0_MakeTxTp_Win.bat‚ðŽÀs‚µ‚ÄAMACSƒf[ƒ^‚É•K—v‚È‰æ‘œ‚ðì‚éB<BR>
 i_Win.bat‚ª‚Â‚­ƒtƒ@ƒCƒ‹–¼‚ÍAWindows‚ÌƒGƒNƒXƒvƒ[ƒ‰[‚©‚çŽÀsj<BR>
 ‘I‘ðƒIƒvƒVƒ‡ƒ“ŽŸ‘æ‚Å‚ÍAX68000‚Åì‹Æ‚·‚é•K—v‚ ‚è<BR>
