@@ -57,10 +57,10 @@ int8_t sStingPCM[3][16] = {	"",
 							"22",
 							};
 							
-int8_t sStingBld[6][32] = {	"has060 -t . MACSList.s",
+int8_t sStingBld[6][38] = {	"has060 -t . MACSList.s",
 							"has060 -t . -u MACSsrc.s",
 							"060high 1",
-							"hlk -r MACSsrc MACSList",
+							"hlk -t --makemcs MACSsrc MACSList",
 							"MakeMCS MACSsrc",
 							"060high 0"
 						};
@@ -544,7 +544,7 @@ int16_t MACSbuild(void)
 	fprintf(fp, "%s\n", sStingBld[1]);
 	fprintf(fp, "%s\n", sStingBld[2]);
 	fprintf(fp, "%s\n", sStingBld[3]);
-	fprintf(fp, "%s\n", sStingBld[4]);
+//	fprintf(fp, "%s\n", sStingBld[4]);	/* 最新のhlkに実装されたので不要 */
 	fprintf(fp, "%s\n", sStingBld[5]);
 
 	/* ファイルを閉じる */
@@ -983,7 +983,7 @@ int16_t main(int16_t argc, int8_t** argv)
 {
 	int16_t ret = 0;
 	
-	puts("勝手に改造MACSデータ作成補助ツール「MACScnv2.x」 v2.01 (c)2022 カタ");
+	puts("勝手に改造MACSデータ作成補助ツール「MACScnv2.x」 v2.02 (c)2022-2023 カタ");
 
 	ret = Option(argc, argv);	/* オプションチェック */
 	

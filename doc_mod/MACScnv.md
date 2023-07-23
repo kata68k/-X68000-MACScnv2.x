@@ -93,12 +93,11 @@ WindowsとX68000間でデータのやり取りができること。
 | 1  | FLOATx.X         |x=2,3,4 | 浮動小数点型(float)が扱える         |システムディスクに同梱|
 | 2  | (V)TwentyOne.sys |v1.36c+14 | 長いファイル名が扱える              |リンク参照|
 | 3  | MACSDRV.x        |0.15.11 | 常駐型のアニメーションコントローラ  |X68K BBS|
-| 4  | MakeMCS.x        |1.01    | MACSデータ生成                      |MACS116.LZHに同梱  |
-| 5  | 060high.x        |0.10    | プログラムをhighメモリで実行        |リンク参照|
-| 6 | HAS060.x         |3.09+89 | アセンブラ                          |リンク参照|
-| 7 | hlk.r            |3.01+15 | リンカ                              |リンク参照|
-| 8 | pcm3pcm.x        |2.15    | WAVからPCMへ変換する                |どこ？|
-| 9 | MACScnv2.x        |2.01    | MACSデータ作成補助                  |X68K BBS|
+| 4  | 060high.x        |0.10    | プログラムをhighメモリで実行        |リンク参照|
+| 5 | HAS060.x         |3.09+91 | アセンブラ                          |リンク参照|
+| 6 | hlk.r            |3.01+18 | リンカ                              |リンク参照|
+| 7 | pcm3pcm.x        |2.15    | WAVからPCMへ変換する                |リンク参照|
+| 8 | MACScnv2.x        |2.02    | MACSデータ作成補助                  |ここ|
 
 ※私の環境のオプション設定
 DEVICE    = \DEV\060turbo\060turbo.sys -bs512 -cm1 -dv -ld4ma -lr -ls -lt -np -sd -ss -ts512 -xm
@@ -109,7 +108,7 @@ DEVICE    = \DEV\060turbo\060turbo.sys -bs512 -cm1 -dv -ld4ma -lr -ls -lt -np -s
 | 1  | MACS_sch.h       | MACS用ヘッダファイル|MACSDRV Version 1.16の勝手に改造に同梱  |
 
 #### X68k ハードウェア
-本体：X68000+PhantomX(030,040,060モード）、X68030+060turbo、もしくは、エミュレータ XEiJ(060turbo)※    
+本体：X68000+PhantomX(000,030,040,060モード）、X68030+060turbo、もしくは、エミュレータ XEiJ(060turbo)※    
 メモリ：ハイメモリ128MB以上（推奨）  
 拡張ボード：まーきゅりーゆにっと（推奨）  
 
@@ -120,10 +119,10 @@ DEVICE    = \DEV\060turbo\060turbo.sys -bs512 -cm1 -dv -ld4ma -lr -ls -lt -np -s
 ### リンク
 
 - [システムディスク](http://retropc.net/x68000/software/sharp/human302/):Makoto KamadaさんのX68000 LIBRARYのページ
-- [MACSDRV](http://retropc.net/x68000/software/movie/macs/macsmoon/):Makoto KamadaさんのX68000 LIBRARYのページ
 - [(V)TwentyOne](http://gorry.haun.org/x68index.html):GORRYさんの「ポリバケツＸ」...X680x0のページ
 - [APICG](http://gorry.haun.org/x68index.html):GORRYさんの「ポリバケツＸ」...X680x0のページ
-- [HAS](http://http://retropc.net/x68000/software/develop/as/has/):Makoto KamadaさんのX68000 LIBRARYのページ
+- [pcm3pcm.x](https://www.vector.co.jp/soft/x68/art/se019752.html):Vectorのページ
+- [has060](http://http://retropc.net/x68000/software/develop/as/has/):Makoto KamadaさんのX68000 LIBRARYのページ
 - [hlk](https://github.com/kg68k/hlk-ev/releases/):立花@桑島技研さんのGitHub
 
 <a id="anchor6"></a>
